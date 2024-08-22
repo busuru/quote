@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  margin: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  /*color: inherit;*/
+  color: whitesmoke;
+  background-color:#0C4DA2 ;
+
+
+}
+
+.card i {
+  font-size: 30px; /* Adjust icon size as needed */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: bold;
+  /*color: #0056b3;  Default text color */
+}
+.card p:hover{
+text-decoration: underline;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color:#BF1E2D ;
+
+
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
